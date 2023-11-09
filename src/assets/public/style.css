@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 1000vw;
+    height: 100vh;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;  
+}
+
+
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000d8;
+}
+
+.nleft,.nright{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    font-family: "gilroy";
+    font-weight: bolder;
+}
+
+
+.nleft img{
+    height: 50px;
+    width: 100px;
+}
+
+
+#hero{  
+    transform: translate(0,-50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+#heroleft{
+    min-width: 50%;
+}
+
+#heroright{
+    min-width: 25%;
+    color: white;
+}
+
+#heroleft .elem {
+    height: 6vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1{
+    line-height: 1.4;
+    font-family: "oswald";
+    font-weight: 100;
+    font-size: 4vw;
+    color: white;
+
+}
+
+#heroleft button{
+    padding: 1vw 2vw;
+    font-size: 2vw;
+    margin-top: 2rem;
+}
+
+#heroright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 40%;
+}
+#imgdiv img{ 
+    height: 200px;
+    width: 400px;
+}
+
+#heroright p{
+    text-align: right;
+}
