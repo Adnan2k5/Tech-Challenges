@@ -14,6 +14,7 @@ html,body{
 .main{
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 .navbar{
@@ -33,12 +34,13 @@ html,body{
 
 
 #top{
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #000000d8;
+    z-index: 1000;
 }
 
 .nleft,.nright{
@@ -118,3 +120,16 @@ html,body{
 #heroright p{
     text-align: right;
 }
+
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
